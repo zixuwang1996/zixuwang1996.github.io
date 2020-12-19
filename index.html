@@ -1,143 +1,47 @@
-<!DOCTYPE html>
+
+
 <html>
+    <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125439105-1"></script>
+      <script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
-<style>
-body {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-a {text-decoration : none; color : #003399;}
-a:hover {text-decoration:underline; color: #8C1515; }
-</style>
+	gtag('config', 'UA-125439105-1');
+      </script>
 
-<style>
-.disabled{
-    pointer-events: none;
-    color:black;
-}
-</style>
+        <title>Zixu Wang</title>
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="home.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+    <div class="main">
+      <!-- <img src="data/profile.jpg"   class="photo"> -->
 
-<script>
-function copy(dest, source) {
-  if(dest.source == source) {
-    dest.innerHTML = "";
-    dest.source = null;
-  }
-  else {
-    dest.innerHTML = source.innerHTML;
-    dest.source = source;
-  }
-  dest.blur();
-}
-</script>
+      <h2>Zixu Wang</h2>
+      <br>
+      <p>I am a Ph.D student in Natural Language Processing at Imperial College London, advised by Prof. <a href = "https://www.imperial.ac.uk/people/l.specia">Lucia Specia</a> and Dr. <a href = "https://sites.google.com/view/yishumiao">Yishu Miao</a>.
+      Previously, I received my MSc in Computing (Machine Learning) from Imperial College London, BEng in Software Engineering from Nankai University, China.
+	</p>
 
-<head>
-    <title>Zixu Wang</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="author" content="Zixu Wang">
-    <meta name="keywords" content="Zixu Wang, Zixu Wang Imperial">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="Homepage of Zixu Wang">
-</head>
+      <!-- [<a href="data/cv_yoon_kim.pdf">CV</a>]
+      [<a href="http://scholar.google.com/citations?user=n_ts4eYAAAAJ">Google Scholar</a>]
+      [<a href="data/kim-dissertation-2020.pdf">PhD Thesis</a>] -->
+	<br>
+	<h1><a name="pubs"></a>Publications</h1>
+    <ul><b>Distinguishing between Dementia with Lewy bodies (DLB) and Alzheimer’s Disease (AD) using Mental Health Records: a Classification Approach</b><br>
+      <b>Zixu Wang</b>, Julia Ive, Sinéad Moylett, Christoph Mueller, Rudolf Cardinal, Sumithra Velupillai, John O'Brien, Robert Stewart.
+	ClinicalNLP 2020<br>
+      [<a href="https://www.aclweb.org/anthology/2020.clinicalnlp-1.19/">paper</a>]
 
-<body>
-
-<table cellpadding="20" style="font-size: 15px">
-<tr>
-<!-- <td><a href="images/lowres_2412.jpg"><img src='images/lowres_2412.jpg' alt="Zixu Wang"/, height = 250></a></td> -->
-<td>
-<h1> Zixu Wang  <span style="font-family:STFangsong; font-size:18pt"> (王梓旭) </h1>
-<!-- <font size="+1"><b>Ph.D. </b> in <b>Computer Science</b> <br><b>Stanford University</b> <br> <br> -->
-<b>Ph.D. </b> in <b>Computing</b> <br>
-<a href="http://www.imperial.ac.uk/computing/">Department of Computing</a> <br>
-<a href="http://www.imperial.ac.uk">Imperial College London</a><br>
-
-<br>
-<b>Email</b>: <tt>&#122;&#105;&#120;&#117;&#46;&#119;&#97;&#110;&#103;&#64;&#105;&#109;&#112;&#101;&#114;&#105;&#97;&#108;&#46;&#97;&#99;&#46;&#117;&#107;</tt><br>
-
-<br>
-<!-- <a href = "#publications">[Publications]</a> <a href = "#education">[Education]</a> <a href = "#experience">[Experience]</a> <br>
-<a href = "#teaching">[Teaching]</a> <a href="#awards">[Awards]</a> <a href="#service">[Service]</a> <a href="#misc">[Misc.]</a> <br> -->
-</td>
-<!-- <td><img src='images/seal.png', height = 100></td> -->
-</tr>
-</table>
-
-<p style="width: 750px;">
-I am a Ph.D student in Natural Language Processing at Imperial College London, advised by Prof. <a href = "https://www.imperial.ac.uk/people/l.specia">Lucia Specia</a> and Dr. <a href = "https://sites.google.com/view/yishumiao">Yishu Miao</a>.
-Previously, I received MSc in Computing (Machine Learning) from Imperial College London, BEng in Software Engineering from Nankai University, China.
-<br><br>
-
-<!-- My main research interests lie within natural language processing, and I am particularly interested in the intersection between machine learning and machine reading comprehension. -->
-</p>
-
-<a name = "education" class="disabled"><h2> Education </h2></a>
-<ul>
-<li> 2020 - : Ph.D in Computing, Imperial College London </li>
-<li> 2018 - 2019: M.Sc in Computing (Machine Learning), Imperial College London </li>
-<li> 2014 - 2018: B.Eng in Software Engineering, Nankai University </li>
-</ul>
-
-<a name = "experience" class="disabled"><h2> Experience </h2></a>
-<ul>
-<li> 2019/10 - 2020/03: Research Assistant at Institute of Psychiatry, Psychology & Neuroscience, King's College London, London, UK </li>
-<li> 2017/08 - 2017/12: Intern in Natural Language Processing at Momo Technology Company Limited, Beijing, China</li>
-</ul>
-
-<a name = "publications" class="disabled"><h2> Publications
-<font size="3">[<a href="https://scholar.google.co.uk/citations?hl=en&user=2hF4pHwAAAAJ">Google Scholar</a>]</font></h2></a>
-
-<!-- <h3> Papers </h3> (<sup>*</sup>: equal contribution) -->
-<ul>
-  <li> <a href="https://www.aclweb.org/anthology/W19-5026/"><b>Latent Variable Model for Visual Question Answering</b></a><br> <b>Zixu Wang</b>, Yishu Miao, Lucia Specia. <br> Submitted to EACL 2021. </li>
-    	<!-- <font size="-1"> [<a href="https://www.aclweb.org/anthology/W19-5026/">paper</a>] [<a href="javascript:copy(div17, bib17)">bib</a>]</font><br>
-    	<div id="div17"></div> <br> --><br>
-
-	<li> <a href="https://www.aclweb.org/anthology/W19-5026/"><b>Exploring Supervised and Unsupervised Rewards in Reinforcement Learning for Machine Translation</b></a><br>Julia Ive, <b>Zixu Wang</b>, Marina Fomicheva, Lucia Specia. <br> Submitted to EACL 2021. </li>
-    	<!-- <font size="-1"> [<a href="https://www.aclweb.org/anthology/W19-5026/">paper</a>] [<a href="javascript:copy(div17, bib17)">bib</a>]</font><br>
-    	<div id="div17"></div> <br> --><br>
+    <ul><b>Is Artificial Data Useful for Biomedical Natural Language Processing Algorithms?</b><br>
+	<b>Zixu Wang</b>, Julia Ive, Sumithra Velupillai, Lucia Specia.<br>
+	BioNLP 2019<br>
+	[<a href="https://www.aclweb.org/anthology/W19-5026/">paper</a>] </ul>
 
 
-	<li> <a href="https://www.aclweb.org/anthology/W19-5026/"><b>Distinguishing between Dementia with Lewy bodies (DLB) and Alzheimer’s Disease (AD) using Mental Health Records: a Classification Approach</b></a><br> <b>Zixu Wang</b>, Julia Ive, Sinéad Moylett, Christoph Mueller, Rudolf Cardinal, Sumithra Velupillai, John O'Brien, Robert Stewart. <br> ClinicalNLP 2020. </li>
-    	<!-- <font size="-1"> [<a href="https://www.aclweb.org/anthology/W19-5026/">paper</a>] [<a href="javascript:copy(div17, bib17)">bib</a>]</font><br>
-    	<div id="div17"></div> <br> --><br>
-
-	<!-- <li> <a href="papers/emnlp2017.pdf"><b>Using Electronic Health Records to Determine Predictors and Outcomes of Dementia with Lewy Bodies (DLB) &#10;to Improve Diagnosis and Management: A Retrospective Naturalistic Cohort Study (Lewy-CRATE)
-  </b></a><br> Ankeet R Tanna, <b>Zixu Wang</b>, Sinéad Moylett, James Fitzgerald, Julia Ive, Annabel Price, Christoph Mueller, Rudolf N Cardinal, Rob Stewart, John T O’Brien
-  <br> Preprint. </li> -->
-      <!-- <font size="-1">[<a href="papers/emnlp2017.pdf">paper</a>] [<a href="javascript:copy(div11, bib11)">bib</a>]  [<a href="papers/emnlp2017.pdf">poster</a>]</font>
-        <div id="div11"></div><br> --><br>
-
-
-  <li> <a href="https://www.aclweb.org/anthology/W19-5026/"><b>Is Artificial Data Useful for Biomedical Natural Language Processing Algorithms?</b></a><br> <b>Zixu Wang</b>, Julia Ive, Sumithra Velupillai, Lucia Specia. <br> BioNLP 2019. </li>
-    	<div id="bib17" style="display:none">
-    		<blockquote>
-    			<pre>
-  				@inproceedings{wang-etal-2019-artificial,
-  				    title = "Is artificial data useful for biomedical Natural Language Processing algorithms?",
-  				    author = "Wang, Zixu  and
-  				      Ive, Julia  and
-  				      Velupillai, Sumithra  and
-  				      Specia, Lucia",
-  				    booktitle = "Proceedings of the 18th BioNLP Workshop and Shared Task",
-  				    month = aug,
-  				    year = "2019",
-  				    address = "Florence, Italy",
-  				    publisher = "Association for Computational Linguistics",
-  				    url = "https://www.aclweb.org/anthology/W19-5026",
-  				    doi = "10.18653/v1/W19-5026",
-  				    pages = "240--249",
-  				    abstract = "A major obstacle to the development of Natural Language Processing (NLP) methods in the biomedical domain is data accessibility. This problem can be addressed by generating medical data artificially. Most previous studies have focused on the generation of short clinical text, and evaluation of the data utility has been limited. We propose a generic methodology to guide the generation of clinical text with key phrases. We use the artificial data as additional training data in two key biomedical NLP tasks: text classification and temporal relation extraction. We show that artificially generated training data used in conjunction with real training data can lead to performance boosts for data-greedy neural network algorithms. We also demonstrate the usefulness of the generated data for NLP setups where it fully replaces real training data.",
-  				}
-    			</pre>
-    		</blockquote>
-    	</div>
-    	<font size="-1"> [<a href="https://www.aclweb.org/anthology/W19-5026/">paper</a>] [<a href="javascript:copy(div17, bib17)">bib</a>]</font><br>
-    	<div id="div17"></div> <br>
-
-</ul>
-
-Last updated: 2020/04.
+    </div>
+    </body>
 </html>
